@@ -27,7 +27,8 @@ nav{
 }
 .nav-links{
     text-align: right;
-    background: #ca3535;
+    /* background: #ca3535; */
+    background-image: linear-gradient(to right, rgb(81, 81, 70),red);
     padding: 10px 30px;
     border-bottom-left-radius: 18px;
 }
@@ -51,6 +52,9 @@ nav{
     left: 0;
     top: 0;
     background: #000;
+    background-image: url("../assets/code.jpg");
+    background-attachment: fixed;
+    background-position: right;
 }
 .row{
     padding: 0 10%;
